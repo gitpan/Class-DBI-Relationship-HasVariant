@@ -5,8 +5,9 @@ use ExtUtils::MakeMaker;
 WriteMakefile(
     NAME                => 'Class::DBI::Relationship::HasVariant',
     AUTHOR              => 'Ricardo Signes <rjbs@cpan.org>',
-    VERSION_FROM        => 'HasVariant.pm',
-    ABSTRACT_FROM       => 'HasVariant.pm',
+    VERSION_FROM        => 'lib/Class/DBI/Relationship/HasVariant.pm',
+    ABSTRACT_FROM       => 'lib/Class/DBI/Relationship/HasVariant.pm',
+    LICENSE             => 'perl',
     PL_FILES            => {},
     PREREQ_PM => {
         'Class::DBI' => 0.96,
